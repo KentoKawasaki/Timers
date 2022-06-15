@@ -1,3 +1,7 @@
+/*
+  Set Timers.
+*/
+
 import { NEW_TIMER, TOGGLE_TIMER } from '../actions';
 import Timer from '../Timer'
 
