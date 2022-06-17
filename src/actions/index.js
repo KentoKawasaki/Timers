@@ -43,3 +43,13 @@ export const update = (deltaTime) => {
     payload: { deltaTime }
   }
 }
+
+/* Delete Timer */
+export const DELETE = "DELETE"
+
+export const del = (index) => {
+  return {
+    type: DELETE,
+    payload: { index }
+  }
+}
